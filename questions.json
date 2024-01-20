@@ -1,0 +1,26 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "options": ["New York", "London", "Paris", "Dublin"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo Da Vinci", "Claude Monet"],
+      "answer": "Leonardo Da Vinci"
+    },
+    {
+      "question": "How can you open a link in a new browser window?",
+      "options": ["_blank", "Target", "Same", "Open"],
+      "answer": "_blank"
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "options": ["<scripting>", "<script>", "<js>", "<javascript>"],
+      "answer": "<script>"
+    }
+
+  ]
+  
+
+

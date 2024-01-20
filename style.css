@@ -1,0 +1,136 @@
+/* Apply styles to the quiz container */
+.quiz-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out; 
+  }
+  
+  /* Apply styles to the quiz title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the question container */
+  #question-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #f9f9f9; 
+    font-size: 20px; 
+  }
+  
+  /* Apply styles to the options list */
+  #options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Apply styles to list items (options) */
+  li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #f5f5f5; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px; 
+  }
+  
+  /* Add a hover effect for list items */
+  li:hover {
+    background-color: #eee;
+  }
+  
+  /* Apply styles to the Next button */
+  #next-button {
+    display: none;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add hover effect to the Next button */
+  #next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Apply styles to the result container */
+  #result-container {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    animation: fadeIn 0.5s ease-in-out; 
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Apply styles to the quiz score */
+  #score {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the progress container */
+  #progress-container {
+    margin-top: 20px;
+    transition: fadeIn 0.5s ease-in-out; 
+  }
+
+  
+  /* Apply styles to the progress text */
+  #progress-text {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the progress bar */
+  #progress-bar {
+    height: 10px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    width: 0;
+    transition: progressBar 2s ease-in-out; 
+  }
+  
+  /* Apply styles to the timer container */
+  #timer-container {
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out; 
+  }
+  
+  /* Apply styles to the timer text */
+  #timer-text {
+    font-weight: bold;
+  }
+  
+  /* custom CSS animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes progressBar {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
